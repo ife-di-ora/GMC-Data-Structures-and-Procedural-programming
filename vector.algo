@@ -3,7 +3,7 @@ PROCEDURE dot_product (VAR v1, VAR v2)          // procedure name and parameters
 
 // declare local variables
 VAR
-    i, ps = INTEGER :=0                                          
+    i, ps : INTEGER :=0                                          
 BEGIN
 //check if length of vectors are equal then loop through array elements to multiply and get dot product
     IF (v1.length == v2.length) THEN
@@ -19,7 +19,7 @@ ALGORITHM orthogonal_procedure
 //declaration of global variables
 VAR
     vector_pairs : ARRAY_OF INTEGER[20][2];
-    i, j, n, ps = INTEGER
+    i, j, n, ps : INTEGER
 
 BEGIN
     // to get number of vector pairs (between 1 and 20) from the user

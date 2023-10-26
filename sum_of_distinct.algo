@@ -21,7 +21,7 @@ END
 FUNCTION check_distinct(y, z, array_1, array_2) : INTEGER           // function name, parameter and return type
 VAR
     // declare local variables to ne used in the function.
-    y, z, sum, i, j := INTEGER
+    y, z, sum, i, j : INTEGER 
     array_1 : ARRAY_OF INTEGER [y];
     array_2 : ARRAY_OF INTEGER [z];
 BEGIN
@@ -48,7 +48,7 @@ ALGORITHM sum_of_distinct
 VAR
 set_a : ARRAY_OF INTEGER[20];
 set_b : ARRAY_OF INTEGER[20];
-distinct, distinct1, distinct2, n, a, b = INTEGER :=0
+distinct, distinct1, distinct2, n, a, b : INTEGER :=0
 
 BEGIN
     // prompt user to enter size of array between 1 and 20
