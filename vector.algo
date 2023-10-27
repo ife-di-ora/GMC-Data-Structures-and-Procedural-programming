@@ -1,5 +1,5 @@
 // procedure to calculate the dot product of 2 vectors
-PROCEDURE dot_product (VAR v1, VAR v2)          // procedure name and parameters
+PROCEDURE dot_product (VAR v1, VAR v2, VAR ps)          // procedure name and parameters
 
 // declare local variables
 VAR
@@ -24,7 +24,7 @@ VAR
 BEGIN
     // to get number of vector pairs (between 1 and 20) from the user
     REPEAT
-        Write ("Enter number of vectors pairs between 1 and 20:")
+        Write ("Enter number of vectors pairs to be checked between 1 and 20:")
         Read ("n")
     UNTIL (a > 0 AND a <= 20)
     
